@@ -1,0 +1,48 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: hsl(0, 0%, 0%);
+    /* background-color: blanchedalmond; */
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+    background-image: url("metro_.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container{
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+}
+
+#count{
+    font-size: 3rem;
+}
+
+#increment{
+    border: none;
+    padding: 30px;
+    font-family: inherit;
+    font-weight: bold;
+    background-color: rgb(175, 51, 51);
+    border-radius: 15px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#save{
+    border: none;
+    padding: 30px;
+    font-family: inherit;
+    font-weight: bold;
+    background-color: rgb(48, 184, 43);
+    border-radius: 15px;
+    color: white;
+    font-size: 1.5rem;
+}
